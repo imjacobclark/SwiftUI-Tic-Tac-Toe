@@ -24,11 +24,12 @@ struct Header: View {
         .padding()
         .padding(.top, 20)
         .frame(minWidth: 0,
-                maxWidth: .infinity,
-                alignment: .leading
+            maxWidth: .infinity,
+            alignment: .leading
         )
         .foregroundColor(Color.white)
-        .background(Color.init(red: 66/255, green: 75/255, blue: 84/255))
+        .background(
+            Color.init(red: 66/255, green: 75/255, blue: 84/255))
     }
 }
 

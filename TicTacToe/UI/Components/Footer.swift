@@ -19,11 +19,12 @@ struct Footer: View {
         }
         .edgesIgnoringSafeArea(.bottom)
         .frame(minWidth: 0,
-                maxWidth: .infinity,
-                alignment: .bottom
+            maxWidth: .infinity,
+            alignment: .bottom
         )
         .foregroundColor(Color.white)
-        .background(Color.init(red: 66/255, green: 75/255, blue: 84/255))
+        .background(
+            Color.init(red: 66/255, green: 75/255, blue: 84/255))
     }
 }
 
